@@ -1,0 +1,133 @@
+html,body,div,ul,li,a,img,h2,p,dl,dt,dd{
+	margin: 0;
+	padding: 0;
+}
+h2{
+	font-weight: normal;
+	font-size: 100%;
+}
+html{
+	background: url("../image1/bg.gif")repeat-x;
+}
+body{
+	background: url("../image1/clouds.gif")repeat-x;
+}
+#container{
+	width: 1000px;
+	margin: 45px auto 0;
+}
+#header{
+	width: 100%;
+	height: 54px;
+	margin-bottom: 10px;
+	background: #393838;
+}
+.nav_logo img{
+	display: block;
+	float: left;
+}
+.nav{
+
+}
+.nav li{
+	list-style: none;
+	float: left;
+}
+.nav li a{
+	display: block;
+	width: 86px;
+	height: 54px;
+	line-height: 54px;
+	text-align: center;
+	color: #ccc;
+	font-size: 12px;
+	text-decoration: none;
+	
+}
+.nav li a:hover{
+	background: url("../image1/navBg.png");
+	color: #fff;
+}
+#banner{
+	width: 100%;
+	height: 292px;
+	margin-bottom: 10px;
+}
+#content{
+	height: 700px;
+	background: #eaeaea;
+	margin-bottom: 10px;
+}
+.content_left{
+	width: 680px;
+	float: left;
+}
+.left_img{
+	display: block;
+	margin: 10px;
+}
+.left_article h2{
+	font-size: 24px;
+	margin: 15px 0 20px;
+	padding-left: 10px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei","ºÚÌå";
+}
+.left_article h2 a{
+	color: #990000;
+	text-decoration: none;
+}
+.left_article h2 a:hover{
+	text-decoration: underline;
+}
+.left_article p{
+	font-size: 14px;
+	line-height: 24px;
+	text-indent: 2em;
+	margin-bottom:28px;
+	margin-left: 10px;
+	color: #333;
+}
+.content_right{
+	width: 300px;
+	margin: 10px;
+	float: right;
+}
+.content_right dt{
+	padding: 10px 10px 10px 20px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 12px;
+	background: url("../image1/title.jpg")no-repeat;
+}
+.content_right dd{
+	color: #333;
+	font-size: 12px;
+	line-height: 24px;
+	padding-left: 10px;
+	margin-left: 5px;
+	background: url("../image1/dot.gif")no-repeat center left;
+}
+#footer{
+	width: 100%;
+	height: 70px;
+	line-height: 17px;
+	background: #393838;
+	text-align: center;
+	font-size: 12px;
+	color: #ccc;
+}
+#footer ul{
+	padding-top: 20px;
+}
+#footer ul li{
+	display: inline;
+}
+#footer a,#footer ul li a{
+	color: #ccc;
+	text-decoration: none;
+}
+#footer a:hover,#footer ul li a:hover{
+	text-decoration: underline;
+}
